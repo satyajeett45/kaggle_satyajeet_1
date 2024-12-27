@@ -27,3 +27,17 @@ Function to Lemmatize Text : A function lemmatize_text(text) is implemented to t
 
 #### Applying Lemmatization: 
 The lemmatize_text function is applied to the cleaned_text column in the DataFrame to further preprocess the text data.
+
+## steps for Word2Vec Model 
+
+#### Train Word2Vec Model
+The Word2Vec model is trained on the cleaned_text column of the training dataset (data_train).
+
+#### Compute Average Word2Vec Vector
+A helper function calculates the average Word2Vec vector for each tokenized text input.
+
+#### Generate Features
+The average Word2Vec vector is computed for each entry in cleaned_text in both training and test datasets.
+
+#### Prepare Data for Machine Learning
+The feature vectors and target labels are extracted, and the data is split into training and test sets.
