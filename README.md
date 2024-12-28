@@ -1,10 +1,20 @@
 # kaggle_satyajeet_1
 
+## Train Dataset Opertions:
+
+#### Missing Value Handling: 
+Replaced missing values in keyword and location.
+
+#### Cleaned Text: 
+Generated a new column cleaned_text with preprocessed text.
+
+#### Visualizations:
+1. Label distribution bar chart.
+2. Text length histogram.
+
+
 ## Test Dataset Operations : 
 Read,Info,Describe,Find Null values,NLP(Remove charecter,hashtags,url's),Plot the grphs
-
-
-
 
 
 ## The preprocessing steps include:
