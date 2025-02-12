@@ -51,3 +51,27 @@ The average Word2Vec vector is computed for each entry in cleaned_text in both t
 
 #### Prepare Data for Machine Learning
 The feature vectors and target labels are extracted, and the data is split into training and test sets.
+
+
+#### Model evaluation:
+##### Logistic Regression
+Trains and evaluates a logistic regression model with accuracy and classification report metrics.
+A logistic regression model is trained using the training set (X_train and y_train).
+The model's predictions on the test set (X_test) are evaluated using accuracy_score and classification_report.
+Accuracy: 58.96%
+Classification Report:
+Precision (class 0): 0.59
+Recall (class 0): 0.98
+Precision (class 1): 0.68
+Recall (class 1): 0.07
+
+##### Random Forest Classifier
+Trains and evaluates a random forest classifier for comparison.
+A random forest classifier is trained on the same training set.
+The predictions on the test set are evaluated with the same metrics.
+Accuracy: 70.72%
+Classification Report:
+Precision (class 0): 0.70
+Recall (class 0): 0.87
+Precision (class 1): 0.73
+Recall (class 1): 0.49
